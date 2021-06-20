@@ -1,176 +1,182 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-
-body {
+*{
 	margin: 0;
-	padding: 0px;
-	max-width: 100%;
-	font-family: 'Poppins';
-}
-header{
-	
-	background: url(../images/cover.jpg);
-	height: 100vh;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-
-}
-.container{
-	width: 1200px;
-	margin: 0 19px 0;
-	overflow: hidden;
-	display: block;
-
-}
-.header{
-	color: ;
-	overflow: hidden;
-	background-color: ;
-	display: block;
-
-	
-}
-.logo{
-	width: 30%;
-	height: none;
-	float: left;
-	background-color: none;
-	padding-top: 10px;
-
-}
-.logo img{
-		width: 30%;
-		float: left;
-		padding: 7px;
-}
-nav{
-	width: 70%;
-	float: left;
-	background-color: none;
-	padding-top: 0px;
-	
-}
-nav ul{
-	margin top: 0px;
 	padding: 0;
-	text-align: right;
-
-}
-nav ul li {
-	list-style: none;
-	display: inline-block;
-
-
-}
-nav ul li a{
-	color: white;
-	text-decoration: none;
-	padding: 21px;
-	display: block;
-	font-size: x-large;
-	font-family: monospace;
 	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 }
 
-/* about-section */
-.about-section{
-	padding: 100px 0;
-	background: #ebeff2;
 
+body{
+	font-family: 'Poppins', sans-serif;
 }
-.about-img{
-	width: 50%;
-	float: left;
-	border-bottom: ;
+
+header{
+	padding: 10px 0;
+	border-bottom: 1px solid #f2f3f5;
+	overflow: hidden;
 }
-.about-img img{
-	max-width: 100%;
+
+.container {
+	width: 90%;
 	margin: 0 auto;
-	display: block;
-	width: 50%;
-	box-shadow: 0px 0px 0px #333;
-
+	overflow: hidden;
 }
-.about-me{
-	margin: 0;
-	font-size: 16px;
-	width: 50%;
+
+.logo {
 	float: left;
+	width: 6%;
+}
 
+.logo img{
+	width: 100%;
 }
-.about-me h3{
-	margin: 0;
-	font-family: sans-serif;
-	font-size: 30px;
-	font-weight: 100px;
-	font: bold;
+.menu {
+	float: right;
+	width: 50%;
+	padding: 10px 0;
+}
 
+.menu ul {
+	float: right;}
 
+.menu ul li{
+	list-style: none;
+	float: left;
 }
-.about-me h1{
-	font-family: sans-serif;
-	font-size: 30px;
-}
-.about-me p{
-	font-size: 15px;
-	font-family: sans-serif;
-	margin-bottom: 10px;
-	margin-top: 0px;
-}
-.about-me .btn{
-	padding: 15px 35px;
-	display: inline-block;
-	color: #333;
-	text-transform: uppercase;
-	font-size: 14px;
+
+.menu ul li a {
+	color: #555;
 	text-decoration: none;
-	border: 2px solid;
-	border-radius: 50px;
-	transition-duration: 0.5s;
+	display: inline-block;
+	font-size: 15px;
+	margin: 0 15px;
+	text-transform: capitalize;
 
 }
-.about-me .btn:hover{
-	background: #333;
-	color: #fff;
-	background: #ec4436;
-    color: #fff;
+
+.menu ul li a:hover{
+	color: #0483EC;
+
 }
 
-/* gallery-section */
 
-.gallery-section{
-	padding: 50px 0;
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*-------mid section start------*/
+
+.mid {
 	text-align: center;
-	font-size: 20px;
-	/* border-bottom: 1px solid #333; */
-	text-transform: uppercase;
+	padding: 30px 0;
 }
-.gallery{
-	padding: 100px 0;
-	background: #ebeff9;
-	display: block;
+
+.small-container {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 25px 25px 0 25px;
+}
+
+.image {
+	padding: 30px 0;
+}
+
+.mid h2 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.mid h3 {
+	text-align: center;
+	font-size: 40px;
+	color: #0483EC;
+}
+
+.mid p {
+	text-align: center;
+	font-size: 14px;
+}
+.mid img {
+	width: 50%;
+}
+
+/*-------mid section end------*/
+
+/*-------mid-2 section start------*/
+
+.mid-2 {
+
+}
+
+.col-2 {
+	float: left;
+	width: 50%;
+	padding: 0 10px;
+}
+
+.col-2 h2 {
+	float: right;
+	padding: 0 10px 0 0px;
+	font-size: 40px;
+	color: #f1586d;
+}
+
+.col-2 h3{
+	font-size: 35px;
+}
+
+.mid-2 p {
+	text-align: right;
+	float: left;
+	padding: 0 10px;
+	font-size: 14px;
+}
+
+/*-------mid-2 section end------*/
+
+
+/*-------image section start------*/
+
+
+.row {
+	
+}
+.col-3 {
 	width: 33.33%;
 	float: left;
-	padding: 8px;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	
-  
+	padding: 50px 0;
+	align-items: center;
 }
-.gallery img{
-	max-width: 100%;
-	display: block;
-}	
-/* footer section */
-.footer{
-	background-color: #2c2c39;
+
+.col-3 img {
 }
-.footer h5{
-	float: right;
-	color: white;
-	margin: 30px;
-	margin-top: 30px;
+
+
+/*-------image section end------*/
+
+/*-------footer section start------*/
+
+.footer {
 }
+
+.box {
+	float: left;
+	background-color: #0483ec;
+	width: 100%;
+	text-align: center;
+	height: auto;
+}
+
+.copyright {
+	color: #fff;
+	padding: 30px 0;
+}
+
+.box p {
+	color: #fff;
+}
+
+.copyright b {
+
+}
+
+/*-------footer section end------*/
